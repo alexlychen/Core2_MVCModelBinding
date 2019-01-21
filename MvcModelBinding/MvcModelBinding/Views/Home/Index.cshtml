@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Person>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2 class="display-4 ">Welcome to MVC Model Binding</h2>
+
+<div class="text-center">
+    <div class="bg-primary m-1 p-1 text-white"><h2>People</h2></div>
+</div>
+
+<div> 
+    
+    @foreach (Person person in Model)
+    {
+        <table class="table table-sm table-bordered table-striped">
+            <tr><th>PersonId:</th><td>@person.PersonId</td></tr>
+            <tr><th>First Name:</th><td>@person.FirstName</td></tr>
+            <tr><th>Last Name:</th><td>@person.LastName</td></tr>
+            <tr><th>Role:</th><td>@person.Role</td></tr>
+            <tr><th>City:</th><td>@person.HomeAddress?.City</td></tr>
+            <tr><th>Country:</th><td>@person.HomeAddress?.Country</td></tr>
+        </table>
+    }
+
+
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
