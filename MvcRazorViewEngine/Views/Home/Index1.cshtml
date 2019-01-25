@@ -1,0 +1,35 @@
+﻿
+@model string[]
+@{
+    ViewData["Title"] = "Testing Section";
+    Layout =  "../Shared/_layout1.cshtml";
+}
+
+@section Header{
+    <div class="bg-success">
+        @foreach(string str in new[]{"Home","List", "Edit"})
+        {
+            <a class="btn btn-sm btn-primary" asp-action="'str">@str</a>
+        }
+    </div>
+}
+
+@section Body{
+
+    <div class="m-1 p-1">
+        This is a list of fruit names:
+        @foreach(string name in Model)
+        {
+            <span><b>@name</b></span>
+        }
+    </div>
+
+}
+
+
+@section Footer{
+
+    <div class="bg-success">
+        This is the footer
+    </div>
+}

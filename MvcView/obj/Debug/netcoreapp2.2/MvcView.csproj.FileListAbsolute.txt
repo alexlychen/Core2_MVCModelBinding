@@ -1,0 +1,14 @@
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\bin\Debug\netcoreapp2.2\MvcView.deps.json
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\bin\Debug\netcoreapp2.2\MvcView.runtimeconfig.json
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\bin\Debug\netcoreapp2.2\MvcView.runtimeconfig.dev.json
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\bin\Debug\netcoreapp2.2\MvcView.dll
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\obj\Debug\netcoreapp2.2\MvcView.csprojAssemblyReference.cache
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\obj\Debug\netcoreapp2.2\MvcView.csproj.CoreCompileInputs.cache
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\obj\Debug\netcoreapp2.2\MvcView.RazorAssemblyInfo.cache
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\obj\Debug\netcoreapp2.2\MvcView.RazorAssemblyInfo.cs
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\obj\Debug\netcoreapp2.2\MvcView.AssemblyInfoInputs.cache
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\obj\Debug\netcoreapp2.2\MvcView.AssemblyInfo.cs
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\obj\Debug\netcoreapp2.2\MvcView.RazorTargetAssemblyInfo.cache
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\bin\Debug\netcoreapp2.2\MvcView.pdb
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\obj\Debug\netcoreapp2.2\MvcView.dll
+C:\Users\Chen\Documents\Visual Studio 2017\Projects\ASP.NET_Core2_MVC\MvcView\obj\Debug\netcoreapp2.2\MvcView.pdb

@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "List";
+}
+<h1>@ViewData["Title"]</h1>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script id="jsonData" type="application/json">
+    @Json.Serialize(new string[] {"Apple", "Orange", "Pear"})
+</script>
+<div class="panel-body">
+    This is the List View
+    @Html.Partial("./PartialViews/MyPartial")
+</div>
+<hr/>
+<h3>This is jQuery function dealing with json data:</h3>
+<div class="panel-body">
+    <ul id="fruit"></ul>
+</div>
+
+<script>
+    $(document).ready(function () {
+        var list = $("#fruit");
+        JSON.parse($("#jsonData").text()).forEach(function (val) {
+            console.log("Val: " + val);
+            list.append($("<li>").text(val));
+        });
+    })
+</script>

@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "List";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="m-1 p-1">
+    This is the Strongly Typed List View
+    @Html.Partial("MyStronglyTypedPartial", new string[] { "Apple", "Orange", "Pear" })
+</div>

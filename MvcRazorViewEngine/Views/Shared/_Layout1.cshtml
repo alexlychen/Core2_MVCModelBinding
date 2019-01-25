@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    
+</head>
+<body class="pane-body">
+
+    @RenderSection("Header", false)
+    <div class="bg-info">
+        This is part of the layout
+    </div>
+    <div>
+        @RenderSection("Body", false)
+    </div>
+    <div class="bg-info">
+        This is part of the layout
+    </div>
+
+
+    @if (IsSectionDefined("Footer"))
+    {
+        @RenderSection("Footer")
+    }
+    else
+    {
+        <H4>This is the default footer</H4>
+    }
+
+    @RenderSection("Script", false)
+    <div class="bg-info">
+        This is part of the layout
+    </div>
+</body>
+</html>
